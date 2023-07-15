@@ -1,0 +1,92 @@
+body{
+	margin: 0px;
+}
+	.coffee-header{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: #0a2d42;
+	z-index: 100;
+}
+.div-logo{
+	height: 100%;
+	text-align: center;
+	margin: 10px;
+	float: left;
+}
+.logo-text{
+	display: block;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: white;
+}
+.coffee-nav{
+	float: right;
+	height: 100%;
+}
+.coffee-nav a{
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: "Helvetica Neue";
+	padding-right: 20px;
+	padding-top: 12%;
+	display: inline-block;
+}
+.site-content{
+	position: absolute;
+	top: 78px;
+	width: 100%;
+}
+.image-content{
+	background-image: url("background-image.webp");
+	height: 700px;
+	width: 100%;
+	text-align: center;
+}
+.quote{
+	color: floralwhite;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	font-style: oblique;
+	position: relative;
+	top: 10%;
+}
+.card-list{
+	width: 100%;
+}
+#product{
+	text-align: center;
+	color: orange;
+}
+.card{
+	width: 22%;
+	padding:1.5%;
+	height: 300px;
+	float: left;
+	text-align: center;
+	color: blue;
+}
+.card img{
+	height: 100%;
+}
+.order-section{
+	position: relative;
+	top: 120px;
+	width: 100%;
+}
+#order{
+	color: green;
+	text-align: center;
+}
+.form{
+	width: 200px;
+	margin: 0 auto;
+}
+.form input{
+	color: red;
+	padding: 10px;
+	margin: 10px;
+}
