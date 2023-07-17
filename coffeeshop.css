@@ -67,10 +67,20 @@ body{
 	height: 300px;
 	float: left;
 	text-align: center;
+	display: inline-block;
 	color: blue;
 }
+@media (min-width:320px) and (max-width:480px){
+	.card{
+		display: block;
+		width: 100%;
+		padding:1.5%;
+		height: 350px;
+		text-align: center;
+	}
+}
 .card img{
-	height: 100%;
+	width: 100%;
 }
 .order-section{
 	position: relative;
